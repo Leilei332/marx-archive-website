@@ -15,11 +15,19 @@ jobs:
         with:
           repository: 'Leilei332/web-archive'
           platform: 'gitlab'
-          path: '/'
+          path: 'archive'
           ref: 'master'
+      - name: clone
+        uses: sudosubin/git-clone-action@release
+        with:
+          repository: 'Leilei332/marx-archive-website'
+          platform: 'github'
+          path: 'marx'
+          ref: 'main'
       - name: push
         run: |
-          date > generated.txt
+          cp archive/tiddlywiki.html marx/index.html
+          cd marx
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
