@@ -18,10 +18,9 @@ jobs:
           path: 'archive'
           ref: 'master'
       - name: clone
-        uses: sudosubin/git-clone-action@release
+        uses: actions/checkout@v3
         with:
           repository: 'Leilei332/marx-archive-website'
-          platform: 'github'
           path: 'marx'
           ref: 'main'
       - name: push
@@ -32,6 +31,6 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "Update"
-          git push
+          git push origin main
 
     
