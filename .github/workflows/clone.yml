@@ -16,5 +16,6 @@ jobs:
           repository: 'Leilei332/web-archive'
           platform: 'gitlab'
           path: '/'
+          ref: 'master'
 
     
