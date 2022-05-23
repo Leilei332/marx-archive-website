@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone
-        uses: sudosubin/git-clone-action@main
+        uses: sudosubin/git-clone-action@release
         with:
           repository: 'Leilei332/web-archive'
           platform: 'gitlab'
