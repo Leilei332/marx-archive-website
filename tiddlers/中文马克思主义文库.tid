@@ -1,0 +1,29 @@
+created: 20220520010351236
+modified: 20220526063031144
+tags: 
+title: 中文马克思主义文库
+type: text/vnd.tiddlywiki
+
+[[中文马克思主义文库|https://marxists.wikis.cc/chinese/index.html]]的[[TiddlyWiki|https://tiddlywiki.com]]版本
+
+仅对排版进行修改，不更改内容。
+
+<$set name="tv-config-toolbar-icons" value="yes">
+
+<$set name="tv-config-toolbar-text" value="yes">
+
+<$set name="tv-config-toolbar-class" value="">
+
+<details><summary>工具</summary>
+{{$:/core/ui/Buttons/palette}} {{$:/core/ui/Buttons/theme}} {{$:/core/ui/Buttons/storyview}} 
+</details>
+
+</$set>
+
+</$set>
+
+</$set>
+
+<<tag 马克思>> <<tag 恩格斯>> <<tag 列宁>>
+
+<<tag 毛泽东>> <<tag 邓中夏>> <<tag 周恩来>> <<tag 李大钊>> <<tag 陈独秀>>
